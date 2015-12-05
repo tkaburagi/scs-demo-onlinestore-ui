@@ -12,7 +12,7 @@ public class Product implements Serializable{
  
     private String category;
  
-    private Double price;
+    private long price;
     
 //	private SerialBlob pic;
 
@@ -40,11 +40,11 @@ public class Product implements Serializable{
 		this.category = category;
 	}
 
-	public double getPrice() {
+	public long getPrice() {
 		return price;
 	}
 
-	public void setPrice(Double price) {
+	public void setPrice(long price) {
 		this.price = price;
 	}
 
